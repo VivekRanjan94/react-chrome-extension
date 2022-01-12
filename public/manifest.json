@@ -1,5 +1,5 @@
 {
-  "name": "React Basic Extension",
+  "name": "React Extension Boilerplate",
   "description": "Basic extension created using react and webpack!",
   "version": "1.0",
   "manifest_version": 2,

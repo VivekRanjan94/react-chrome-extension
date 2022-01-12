@@ -23,6 +23,20 @@ module.exports = {
           },
         },
       },
+      {
+        exclude: /node_modules/,
+        test: /\.scss$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              implementation: require.resolve('sass'),
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
